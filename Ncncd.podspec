@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Ncncd"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "SDK For Ncncd."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Ncncd", "NcncdFramework/**/*.{h,m,swift}"
-  s.vendored_frameworks = 'NcncdFramework/Ncncd.framework'
+  # s.vendored_frameworks = 'NcncdFramework/Ncncd.framework'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
