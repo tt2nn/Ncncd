@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Ncncd"
-  s.version      = "1.0.11"
+  s.version      = "1.0.12"
   s.summary      = "SDK For Ncncd."
 
   # This description is used to generate tags and improve search results.

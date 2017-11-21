@@ -8,20 +8,20 @@
 
 import UIKit
 
-class CommonRequest: NSObject {
+public class CommonRequest: NSObject {
     
     // AppKey
-    var appKey = ""
+    public var appKey = ""
     
     // 时间戳
-    var timestamp = 0
+    public var timestamp = 0
     
     // 手机号
-    var telephone = ""
+    public var telephone = ""
     
     // 数据
-    var data = ""
+    public var data = ""
     
     // 签名
-    var sign = ""
+    public var sign = ""
 }

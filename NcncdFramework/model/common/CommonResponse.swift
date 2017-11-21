@@ -8,11 +8,11 @@
 
 import UIKit
 
-class CommonResponse: NSObject {
+public class CommonResponse: NSObject {
     
     // 错误信息
-    var errMsg = ""
+    public var errMsg = ""
     
     // 错误编号
-    var errNo = 0
+    public var errNo = 0
 }
