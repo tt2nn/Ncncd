@@ -1,0 +1,11 @@
+framework module Ncncd {
+  umbrella header "Ncncd.h"
+
+  export *
+  module * { export * }
+}
+
+module Ncncd.Swift {
+    header "Ncncd-Swift.h"
+    requires objc
+}
