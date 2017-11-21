@@ -263,14 +263,6 @@ SWIFT_CLASS("_TtC5Ncncd13BloodSugarApi")
 @end
 
 
-SWIFT_CLASS("_TtC5Ncncd14CommonResponse")
-@interface CommonResponse : NSObject
-@property (nonatomic, copy) NSString * _Nonnull errMsg;
-@property (nonatomic) NSInteger errNo;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC5Ncncd6Health")
 @interface Health : NSObject
 @property (nonatomic) float bmi;
